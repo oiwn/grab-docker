@@ -1,0 +1,15 @@
+session_name: grab-docker
+windows:
+  - window_name: code
+    panes:
+      - shell_command:
+          - workon grab-docker
+          - emacs
+  - window_name: cmd
+    panes:
+      - shell_command:
+          - workon grab-docker
+  - window_name: cmd2
+    panes:
+      - shell_command:
+          - workon grab-docker
