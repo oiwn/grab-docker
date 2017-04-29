@@ -26,7 +26,7 @@ class GithubSpider(Spider):
     def task_repo(self, grab, task):
         print('Repo: {}'.format(grab.doc.url))
         commits_number = grab.doc('//li[@class="commits"]/a/span').text()
-        print("{} commits nuber: {}".format(grab.doc.url, commits_number))
+        print("{} commits number: {}".format(grab.doc.url, commits_number))
 
 
 if __name__ == '__main__':
