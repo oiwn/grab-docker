@@ -1,0 +1,11 @@
+version: '3'
+services:
+  grab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./examples/github:/code
+    entrypoint:
+      - python
+      - run.py

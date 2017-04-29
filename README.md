@@ -3,8 +3,9 @@
 Docker containers for grab framework scrapers
 
 - [ ] examples
-- [ ] alpine linux python 3.x
+- [X] alpine linux python 3.x grab preinstalled
 - [ ] docker compose
+- [ ] grab logs volume
 - [ ] expose http_api port
 - [ ] optionally redis cache
 - [ ] optionally mongodb database
